@@ -16,7 +16,7 @@ body:
   - type: input
     id: email
     attributes:
-      label: Institutional Email
+      label: Institutional Email Address
       description: Must be a university or research institution email
     validations:
       required: true
@@ -25,6 +25,7 @@ body:
     id: institution
     attributes:
       label: Institution
+      description: University or research organization you are affiliated with
     validations:
       required: true
 
@@ -32,6 +33,7 @@ body:
     id: role
     attributes:
       label: Academic Role
+      description: Select your current academic position
       options:
         - Faculty
         - Postdoctoral Researcher
@@ -43,26 +45,47 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: project
+  - type: input
+    id: supervisor_name
     attributes:
-      label: Research Project Description
-      description: Briefly describe your research (100–300 words)
-    validations:
-      required: true
-
-  - type: textarea
-    id: usage
-    attributes:
-      label: Intended Use
-      description: Explain how you will use the dataset
+      label: Supervisor Name (If Applicable)
+      description: |
+        If you are an undergraduate student, you MUST provide your supervisor's full name.
+        Otherwise, enter "N/A".
     validations:
       required: true
 
   - type: input
-    id: dataset
+    id: supervisor_email
+    attributes:
+      label: Supervisor Email (If Applicable)
+      description: |
+        If you are an undergraduate student, you MUST provide your supervisor's institutional email.
+        Otherwise, enter "N/A".
+    validations:
+      required: true
+
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Research Project Description
+      description: Describe your research project (100–300 words)
+    validations:
+      required: true
+
+  - type: textarea
+    id: intended_use
+    attributes:
+      label: Intended Use of Dataset
+      description: Explain how you will use the dataset in your research
+    validations:
+      required: true
+
+  - type: input
+    id: dataset_name
     attributes:
       label: Dataset Name
+      description: Specify the dataset you are requesting access to
     validations:
       required: true
 
@@ -77,5 +100,5 @@ body:
           required: true
         - label: I will properly cite the dataset in any publication
           required: true
-        - label: I understand access may be revoked if terms are violated
+        - label: I understand that access may be revoked if terms are violated
           required: true
