@@ -14,6 +14,22 @@ body:
       required: true
 
   - type: input
+    id: requester_google_scholar_id
+    attributes:
+      label: Google Scholar ID (Requester)
+      description: Enter your Google Scholar profile ID or link
+    validations:
+      required: false
+
+  - type: input
+    id: requester_homepage
+    attributes:
+      label: Personal Homepage (Requester)
+      description: Link to your personal or lab homepage
+    validations:
+      required: false
+
+  - type: input
     id: email
     attributes:
       label: Institutional Email Address
@@ -55,6 +71,21 @@ body:
     validations:
       required: true
 
+  - type: input
+    id: supervisor_google_scholar_id
+    attributes:
+      label: Google Scholar ID (Supervisor)
+      description: Enter your supervisor's Google Scholar profile ID or link (if applicable)
+    validations:
+      required: false
+
+  - type: input
+    id: supervisor_homepage
+    attributes:
+      label: Personal Homepage (Supervisor)
+      description: Link to supervisor's lab or personal homepage (if applicable)
+    validations:
+      required: false
 
   - type: textarea
     id: project_description
@@ -79,6 +110,16 @@ body:
       description: Specify the dataset you are requesting access to
     validations:
       required: true
+
+  - type: textarea
+    id: signed_letter
+    attributes:
+      label: Signed Letter
+      description: |
+        Provide a signed access request letter (paste text here or include a link to a signed PDF).
+        The letter should confirm academic use and compliance with dataset terms.
+    validations:
+      required: false
 
   - type: checkboxes
     id: terms
