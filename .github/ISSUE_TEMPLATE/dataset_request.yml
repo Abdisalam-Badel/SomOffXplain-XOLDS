@@ -87,7 +87,7 @@ body:
       options:
         - label: I will use the dataset only for academic and research purposes
           required: true
-        - label: I will not redistribute or share the dataset
+        - label: I will not redistribute, publish in a public repository, or share the dataset with others
           required: true
         - label: I will properly cite the dataset in any publication
           required: true
