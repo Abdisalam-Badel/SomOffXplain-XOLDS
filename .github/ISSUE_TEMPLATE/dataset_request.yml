@@ -50,7 +50,7 @@ body:
     attributes:
       label: Supervisor Name (If Applicable)
       description: |
-        If you are an undergraduate student, you MUST provide your supervisor's full name.
+        If you are an undergraduate student, you MUST provide your supervisor's full name and Email.
         Otherwise, enter "N/A".
     validations:
       required: true
