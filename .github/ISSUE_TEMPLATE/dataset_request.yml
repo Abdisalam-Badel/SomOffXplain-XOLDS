@@ -55,15 +55,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: supervisor_email
-    attributes:
-      label: Supervisor Email (If Applicable)
-      description: |
-        If you are an undergraduate student, you MUST provide your supervisor's institutional email.
-        Otherwise, enter "N/A".
-    validations:
-      required: true
 
   - type: textarea
     id: project_description
