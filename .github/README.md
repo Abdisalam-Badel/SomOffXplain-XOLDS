@@ -1,1 +1,1 @@
-We are working on this Repository and will update it soon with details about SomOffXplain-XOLDS. Thank you for your understanding.
+This is the official repository for the SomOffXplain paper, and its code and data will be added here in the coming weeks. Thank you for your patience.
