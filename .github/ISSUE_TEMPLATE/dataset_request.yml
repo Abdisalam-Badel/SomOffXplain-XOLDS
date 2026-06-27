@@ -64,7 +64,7 @@ body:
   - type: input
     id: supervisor_name
     attributes:
-      label: Supervisor Name (If Applicable)
+      label: Supervisor Name and Email (If Applicable)
       description: |
         If you are an undergraduate student, you MUST provide your supervisor's full name and Email.
         Otherwise, enter "N/A".
@@ -111,15 +111,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: signed_letter
-    attributes:
-      label: Signed Letter
-      description: |
-        Provide a signed access request letter (paste text here or include a link to a signed PDF).
-        The letter should confirm academic use and compliance with dataset terms.
-    validations:
-      required: false
 
   - type: checkboxes
     id: terms
