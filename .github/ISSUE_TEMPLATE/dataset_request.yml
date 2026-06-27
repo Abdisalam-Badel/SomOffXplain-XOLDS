@@ -66,7 +66,7 @@ body:
     attributes:
       label: Supervisor Name and Email (If Applicable)
       description: |
-        If you are a student, you must provide your supervisor’s full name and email.
+        If you are a student, you must provide your supervisor’s full name and email
         Otherwise, enter "N/A".
     validations:
       required: true
