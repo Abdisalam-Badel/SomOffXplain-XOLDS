@@ -69,7 +69,7 @@ body:
         If you are a student, you must provide your supervisor’s full name and email
         Otherwise, enter "N/A".
     validations:
-      required: false
+      required: true
 
   - type: input
     id: supervisor_google_scholar_id
