@@ -1,0 +1,127 @@
+name: Dataset Access Request
+description: Request access to XOLDS for academic research purposes
+title: "[Dataset Request]: "
+labels: ["dataset-request"]
+
+body:
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full Name
+      description: Enter your full legal name
+    validations:
+      required: true
+
+  - type: input
+    id: requester_google_scholar_id
+    attributes:
+      label: Google Scholar ID (Requester)
+      description: Enter your Google Scholar profile ID or link
+    validations:
+      required: false
+
+  - type: input
+    id: requester_homepage
+    attributes:
+      label: Personal Homepage (Requester)
+      description: Link to your personal or lab homepage
+    validations:
+      required: false
+
+  - type: input
+    id: email
+    attributes:
+      label: Institutional Email Address
+      description: Must be a university or research institution email
+    validations:
+      required: true
+
+  - type: input
+    id: institution
+    attributes:
+      label: Institution
+      description: University or research organization you are affiliated with
+    validations:
+      required: true
+
+  - type: dropdown
+    id: role
+    attributes:
+      label: Academic Role
+      description: Select your current academic position
+      options:
+        - Faculty
+        - Postdoctoral Researcher
+        - PhD Student
+        - Master's Student
+        - Undergraduate Student
+        - Research Staff
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: supervisor_name
+    attributes:
+      label: Supervisor Name and Email (If Applicable)
+      description: |
+        If you are a student, you must provide your supervisor’s full name and email
+        Otherwise, enter "N/A".
+    validations:
+      required: true
+
+  - type: input
+    id: supervisor_google_scholar_id
+    attributes:
+      label: Google Scholar ID (Supervisor)
+      description: Enter your supervisor's Google Scholar profile ID or link (if applicable)
+    validations:
+      required: false
+
+  - type: input
+    id: supervisor_homepage
+    attributes:
+      label: Personal Homepage (Supervisor)
+      description: Link to supervisor's lab or personal homepage (if applicable)
+    validations:
+      required: false
+
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Research Project Description
+      description: Describe your research project (100–300 words)
+    validations:
+      required: true
+
+  - type: textarea
+    id: intended_use
+    attributes:
+      label: Intended Use of Dataset
+      description: Explain how you will use the dataset in your research
+    validations:
+      required: true
+
+  - type: input
+    id: dataset_name
+    attributes:
+      label: Dataset Name
+      description: Specify the dataset you are requesting access to
+    validations:
+      required: true
+
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms and Conditions
+      options:
+        - label: I will use the dataset only for academic and research purposes
+          required: true
+        - label: I will not redistribute, publish in a public repository, or share the dataset with others
+          required: true
+        - label: I will properly cite the dataset in any publication
+          required: true
+        - label: I understand that access may be revoked if terms are violated
+          required: true
