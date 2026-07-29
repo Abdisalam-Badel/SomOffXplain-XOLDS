@@ -13,7 +13,7 @@ understand and produce rationales in Somali. Our proposed model demonstrates sup
 
 
 
-# Code and dataset instructions are coming soon. For urgent access requests, please contact Abdisalam Badel at fiicane121@gmail.com or 202214090105@std.uestc.edu.cn.
+>📋 Code and dataset instructions are coming soon. For urgent access requests, please contact **Abdisalam** **Badel** at fiicane121@gmail.com or 202214090105@std.uestc.edu.cn.
 
 
 
