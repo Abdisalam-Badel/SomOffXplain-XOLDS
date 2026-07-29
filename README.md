@@ -1,4 +1,4 @@
-# Benchmarking Explainable Offensive Language Detection in Somali with Human-Annotated Rationales
+# Benchmarking explainable offensive language detection in Somali with human-annotated rationales
 
 This repository is the official implementation of the Scientific Reports 2026 Paper entitled: [Benchmarking Explainable Offensive Language Detection in Somali with Human-Annotated Rationales](https://www.nature.com/articles/s41598-026-53781-0) 
 
