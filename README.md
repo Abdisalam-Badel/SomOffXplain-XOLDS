@@ -3,6 +3,8 @@
 This repository is the official implementation of the Scientific Reports 2026 Paper entitled: [Benchmarking Explainable Offensive Language Detection in Somali with Human-Annotated Rationales](https://www.nature.com/articles/s41598-026-53781-0) 
 
 
+# Overview
+
 Offensive language presents significant challenges on the internet and requires robust moderation. However, the efficacy of such moderation often depends on providing clear and interpretable justifications for each classification. Unfortunately, many
 existing datasets lack annotated rationales, and most detection models offer limited interpretability and transparency. These limitations hinder the development of trustworthy systems and the implementation of effective content moderation strategies. In this paper, we introduce SomOffXplain, an interpretable framework for detecting offensive language in Somali, which generates
 human-understandable explanations for its predictions. SomOffXplain performs span-level rationale extraction at both the word and phrase levels, enabling it to highlight text segments that support its predictions. Given that Somali is a low-resource
