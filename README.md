@@ -49,13 +49,12 @@ python main.py eval --test_csv data/test.csv --save_path best_model.pth --plot
 
 #### 4. Inference 
 
-📋 To conduct inference, retrain the model first, as there is no checkpoint provided yet.
 
 ```
 cd Code
 python main.py explain --input_text "Intaad munaafiq tahay badanaa"
 ```
-
+📋 To conduct inference, retrain the model first, as there is no checkpoint provided yet.
 
 
 
