@@ -108,7 +108,7 @@ Weedha/sentence: **Moryankan** **sheydanka** miyeey kadhigen masul wa kuwi **xas
 ## 📌 Citation
 
 If you find this repository helpful, please cite our paper:
------------------------------------------------
+
 
 ```
 @article{Badel2026,
