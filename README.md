@@ -28,7 +28,7 @@ transformers == 4.46.3
 
  ```
 cd Code
-<python main.py train --train_csv data/train.csv --dev_csv data/dev.csv --epochs 3 --batch_size 8 --save_path best_model.pth -->
+python main.py train --train_csv data/train.csv --dev_csv data/dev.csv --epochs 3 --batch_size 8 --save_path best_model.pth 
 ```
 
 #### 3. Evaluation 
