@@ -1,4 +1,4 @@
-# Benchmarking explainable offensive language detection in Somali with human-annotated rationales
+# SomOffXplain
 
 This repository is the official implementation of the [Scientific Reports](https://www.nature.com/srep/)  **May-2026** Paper with the title: [Benchmarking explainable offensive language detection in Somali with human-annotated rationales](https://www.nature.com/articles/s41598-026-53781-0) 
 
