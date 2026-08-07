@@ -16,7 +16,7 @@ understand and produce rationales in Somali. Our proposed model demonstrates sup
 
 ## Notes
 
-#### 5.  <img src="https://img.shields.io/badge/Dataset-CSV-blue?logo=databricks" width="60"> Dataset Access
+####   <img src="https://img.shields.io/badge/Dataset-CSV-blue?logo=databricks" width="60"> Dataset Access
 
  📋Due to the sensitive nature of the data, the XOLDS-dataset is available upon reasonable request and in line with responsible NLP data-sharing practices. To request access, click **Issues** in the top-left corner of this repository and complete the request form. For further information, please contact **Abdisalam** **Badel** at fiicane121@gmail.com or 202214090105@std.uestc.edu.cn.
 
@@ -25,7 +25,7 @@ NaN in the target column of the data means there is no target; in other words, t
 ```
 
 ## Usage 
---------------------------------------------------------------
+
 
 #### 1. Requirements
  ```
