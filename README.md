@@ -105,6 +105,22 @@ We have shared the following guidelines with our annotators and held video conve
 Weedha/sentence: **Moryankan** **sheydanka** miyeey kadhigen masul wa kuwi **xasuqay** kow kayahay wana **Dambile** shacab.
 
 
+## 📌 Citation
+
+If you find this repository helpful, please cite our paper:
+-----------------------------------------------
+
+```
+@article{Badel2026,
+    author = {Badel, A. M. and Zhong, T. and Xu, X. et al.},
+    title = {Benchmarking explainable offensive language detection in {Somali} with human-annotated rationales},
+    journal = {Sci Rep},
+    volume = {16},
+    pages = {24406},
+    year = {2026},
+    doi = {10.1038/s41598-026-53781-0}
+}
+```
 
 License
 ---------------------------------------------------------------------------------------------------------
