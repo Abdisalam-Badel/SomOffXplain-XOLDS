@@ -40,7 +40,7 @@ def plot_token_heatmap(
         importance_matrix,
         annot=True,
         fmt=".4f",
-        cmap="YlGnBu",    
+        cmap="YlGnBu",    #ff
         cbar=False,
         xticklabels=words,
         yticklabels=[],
