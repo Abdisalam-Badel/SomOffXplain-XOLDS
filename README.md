@@ -61,7 +61,7 @@ python main.py explain --input_text "Intaad munaafiq tahay badanaa"
 
 ***
 
-# 	Annotator Guidelines
+# 	Annotator Guidelines Used for Data Annotation
 We have shared the following guidelines with our annotators and held video conversations with them via Zoom. In addition, we discussed many issues through WhatsApp calls. Our contact was on a daily basis throughout the data annotation process. Please note that in the guideline, the English text is not a direct translation of the Somali text. In cases where we use direct translation, we label it as “English Translation.”
 ##  Label and Target Annotation Guidelines
 **Somali.** Shuruucda, la raacayo si loo anatoydgareeyo dhaatadan, fadlan fiiri oo raac qeexitaanka ka hore intaadan, bilaabin shaqada, Mahadsanid.
