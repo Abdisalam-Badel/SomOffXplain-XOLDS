@@ -55,7 +55,7 @@ cd Code
 python main.py explain --input_text "Intaad munaafiq tahay badanaa"
 ```
  -
- <sup><i> To conduct inference, retrain the model first, as there is no checkpoint provided yet. </i></sup>
+ 📋<sup><i> To conduct inference, retrain the model first, as there is no checkpoint provided yet. </i></sup>
 
 
 
