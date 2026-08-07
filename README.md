@@ -46,7 +46,7 @@ python main.py train --train_csv data/train.csv --dev_csv data/dev.csv --epochs 
 
 ```
 cd Code
-python main.py eval --test_csv data/test.csv --save_path SomOffXplain.pth --plot
+python main.py eval --test_csv data/test.csv --save_path best_model.pth --plot
 ```
 
 #### 4. Inference 
