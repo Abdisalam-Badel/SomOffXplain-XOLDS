@@ -35,8 +35,6 @@ transformers == 4.46.3
 
 #### 2. Training
 
-📋 To retrain this model, simply run the following command.
-
  ```
 cd Code
 python main.py train --train_csv data/train.csv --dev_csv data/dev.csv --epochs 3 --batch_size 8 --save_path best_model.pth 
@@ -50,6 +48,8 @@ python main.py eval --test_csv data/test.csv --save_path best_model.pth --plot
 ```
 
 #### 4. Inference 
+
+📋 To conduct inference, retrain the model first, as there is no checkpoint provided yet.
 
 ```
 cd Code
