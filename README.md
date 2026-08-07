@@ -12,8 +12,20 @@ human-understandable explanations for its predictions. SomOffXplain performs spa
 language, we first construct a new benchmark dataset of 10,175 samples, each annotated with human-provided rationales. We evaluate our method against five fine-tuned pre-trained models using Local Interpretable Model-Agnostic Explanations (LIME). Additionally, we adapt four large language models (LLMs) through few-shot and zero-shot prompting to assess their ability to
 understand and produce rationales in Somali. Our proposed model demonstrates superiority in terms of explainability and predictive accuracy, exhibiting higher plausibility and faithfulness compared to the baselines. Furthermore, our results reveal that half of the state-of-the-art LLMs evaluated fail to generate high-quality rationales that align with human-annotated ground truth rationales, whereas LIME-based methods also prove to be weak explainers for Somali text. We believe our contributions support online safety, help prevent harassment in under-resourced language communities, enhance the trustworthiness of language models, and promote transparency in artificial intelligence systems.
 
+---------------------------------------------------------------------------------------------
 
+## Notes
 
+#### 5.  <img src="https://img.shields.io/badge/Dataset-CSV-blue?logo=databricks" width="60"> Dataset Access
+
+ 📋Due to the sensitive nature of the data, the XOLDS-dataset is available upon reasonable request and in line with responsible NLP data-sharing practices. To request access, click **Issues** in the top-left corner of this repository and complete the request form. For further information, please contact **Abdisalam** **Badel** at fiicane121@gmail.com or 202214090105@std.uestc.edu.cn.
+
+```
+NaN in the target column of the data means there is no target; in other words, the text is positive (not offensive).
+```
+
+## Usage 
+--------------------------------------------------------------
 
 #### 1. Requirements
  ```
@@ -45,13 +57,7 @@ cd Code
 python main.py explain --input_text "Intaad munaafiq tahay badanaa"
 ```
 
-#### 5.  <img src="https://img.shields.io/badge/Dataset-CSV-blue?logo=databricks" width="60"> Dataset Access
 
- 📋Due to the sensitive nature of the data, the XOLDS-dataset is available upon reasonable request and in line with responsible NLP data-sharing practices. To request access, click **Issues** in the top-left corner of this repository and complete the request form. For further information, please contact **Abdisalam** **Badel** at fiicane121@gmail.com or 202214090105@std.uestc.edu.cn.
-
-```
-NaN in the target column of the data means there is no target; in other words, the text is positive (not offensive).
-``` 
 
 
 ***
