@@ -23,6 +23,13 @@ understand and produce rationales in Somali. Our proposed model demonstrates sup
 NaN in the target column of the data means there is no target; in other words, the text is positive (not offensive).
 ```
 
+#### Dataset Format
+
+| rationale | category | label | text |
+|-----------|----------|-------|------|
+| munaafiq | offensive | 1 | "Intaad munaafiq tahay badanaa" |
+| ilaahay ha unaxariisto | non-offensive | 0 | "ilaahay ha unaxariisto qabrigane alaha uwaasiciyo" |
+
 ## Usage 
 
 
