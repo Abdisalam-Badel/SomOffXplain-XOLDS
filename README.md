@@ -27,8 +27,8 @@ NaN in the target column of the data means there is no target; in other words, t
 
 | rationale | category | label | text |
 |-----------|----------|-------|------|
-| munaafiq | offensive | 1 | "Intaad munaafiq tahay badanaa" |
-| ilaahay ha unaxariisto | non-offensive | 0 | "ilaahay ha unaxariisto qabrigane alaha uwaasiciyo" |
+| munaafiq | offensive | 1 | Intaad munaafiq tahay badanaa |
+| ilaahay ha unaxariisto | non-offensive | 0 | ilaahay ha unaxariisto qabrigane alaha uwaasiciyo |
 
 ## Usage 
 
