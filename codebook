@@ -1,5 +1,6 @@
  Column name  | Description                                                                              | Values                                                                                                                                
- -------------| -----------------------------------------------                                          |------------------------------------------------------------------------------------------------------------------ 
+ -------------| -----------------------------------------------                                          |------------------------------------------------------------------------------------------------------------------
+id            | indicates the row number                                                                 | Unique identifier for the instance
 label         | Indicates whether the text is offensive or non-offensive                                 | 0 = non-offensive; 1 = offensive                                                                                                              
 target        | Indicates the target community of the text                                               | person = text targets a person; group = text targets a group; women = text targets women; other= no targets mentioned 
 rationale     | indicates the rationale spans                                                            | contains spans/segments of text, that explain for why the text either offensive or non-offensive   
